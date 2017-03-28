@@ -1,4 +1,4 @@
-##ASE AMERICAS Team 6 - Software Project Q3FY17
+## ASE AMERICAS Team 6 - Software Project Q3FY17
 This repository contains code for the software project of ASE AMERICAS Team 6.
 
 The project is organized in a 3 step process, notably:
@@ -10,14 +10,14 @@ You will find the corresponding folders for each step.
 
 
 
-###Team Members
+### Team Members
 * Christie Abel
 * Eliott Stidd
 * Nina Moore
 
 
 
-###Coaches/Sponsors
+### Coaches/Sponsors
 * Jason Mah (Main coach)
 * Monica Acosta
 * Dong Youl Lee
@@ -25,16 +25,16 @@ You will find the corresponding folders for each step.
 
 
 
-##Products in this project
+### Products in this project
 * [Cisco WAN Automation Engine (WAE)](http://www.cisco.com/c/en/us/products/routers/wan-automation-engine/index.html)
 
 
 
-###API Documentation
+### API Documentation
 * [WAE Design API ](https://developer.cisco.com/site/wae/documentation/api-release-6-4/design-rpc-api/)
 * [WAE Live REST API](https://developer.cisco.com/site/wae/documentation/api-release-6-4/live-rest-api/index.gsp)
 
 
 
-###Sample Application - Traffic Steering Application
+### Sample Application - Traffic Steering Application
 This application uses Topology information on WAE to make Traffic Engineering decisions on the network.
