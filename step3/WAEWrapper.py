@@ -2,7 +2,7 @@ import requests
 
 class WAEWrapper():
 
-	def createLSP(self, wae, tname, tsource, tdest):
+	def createLSP(self, wae, port, tname, tsource, tdest):
 		url = "http://" + wae + ":" + port + "/wae/network/modeled/entities/tunnel/new/admit/basic"
 		payload = "{\r\n  \"teTunnel\" : {\r\n    \"name\" : \"%s\",\r\n    \"source\" : \"%s\",\r\n    \"destination\" : \"%s\",\r\n    \"pcep\" : false\r\n  }\r\n}"%(tname, tsource,tdest)
 		headers = {
