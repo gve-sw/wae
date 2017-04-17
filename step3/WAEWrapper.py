@@ -13,7 +13,7 @@ class WAEWrapper():
 		print(response.text)
 
 
-	def listpaths(self, wae, port):
+	def listPaths(self, wae, port):
 		url = "http://" + wae + ":" + port + "/wae/network/collected/entities/tunnel/pcep/get-all-tunnels"
 		headers = {
 		    'cache-control': "no-cache",
